@@ -14,7 +14,7 @@ export class MapContainer extends React.Component {
         }
 
     render() {
-        
+
         const {x, y} = this.state
 
         return (
@@ -27,7 +27,6 @@ export class MapContainer extends React.Component {
             lng: y
           }}
           zoom={8}
-          onClick={this.onMapClicked}
         >
           </Map> :
           <></>
